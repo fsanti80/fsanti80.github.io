@@ -1,0 +1,119 @@
+* {
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+section{
+
+    height: 100vh;
+}
+
+section#Perfil{
+background-color: rgb(211, 211, 177);
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+section#Perfil h1{
+    font-size: 3rem;
+}
+
+section#Perfil h2{
+    font-size: 2rem;
+    
+}
+
+section#Perfil h3{
+    font-size: 1rem;
+    font-family: "Montserrat";
+    
+}
+h1{
+    font-size: 3rem;
+    text-align: center;
+}
+h2{
+    font-size: 2rem;
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+h4{
+    text-align: center;
+}
+.Lista-de-Títulos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: lightblue;
+}
+.Detalle-de-Títulos{
+    border: 10px solid rgb(1, 67, 94);
+    border-radius: 15px;
+    width: 300px;
+    margin: 20px;
+    font-family: "Lato";
+}
+
+.Lista-de-Puestos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.Detalle-de-Puestos{
+    border: 10px solid rgb(3, 121, 75);
+    border-radius: 15px;
+    width: 300px;
+    margin: 20px;
+    font-family: "Lato";
+}
+  
+header{
+    position: relative;
+    top: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: rgb(211, 211, 177);
+    
+    
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+  }
+
+  nav ul li{
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px 20px;
+    background-color: transparent;
+    font-family: "Rubik";
+
+    }
+   
+  section#Contacto h2{
+    font-size: 2rem;
+    
+}
+
+ form {
+border:1px solid black;
+width: 300px;
+margin: 0 auto;
+background-color: white;
+padding: 2px;
+border-radius:10 px;
+ }
+
+ 
+ main {
+background-color: rgb(192, 219, 228);
+
+ }

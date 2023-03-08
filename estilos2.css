@@ -1,0 +1,24 @@
+header {
+    background-color: rgb(179, 175, 175);
+    /* column-count:2; // 2 columnas
+    column-width: 140px;  columnas responsivas */
+    display: grid;
+    grid-template-columns: 100px auto;
+    text-align: center;
+    border: 1px solid black;
+    color: rgb(0, 0, 0);
+    margin: 30 px;
+    font-family: "Lato";
+    font-size: 36px;
+    
+    }
+    
+
+body {
+    display: grid;
+    grid-template-columns: 20px auto;
+    background-color: rgb(250, 251, 252);
+  }
+  
+
+  
